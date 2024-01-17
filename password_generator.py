@@ -23,5 +23,6 @@ amount = 10
 for x in range(amount):
     password = "".join(random.sample(all, length)) #here we are using all the characters mentioned 
                                                     #and mentioned the length for the password
+    print()
     print(password)
     
