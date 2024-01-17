@@ -20,9 +20,10 @@ if sym:
 length = 20 
 amount = 10 
 
+print("These are the list of passwords you can choose from!: \n")
 for x in range(amount):
     password = "".join(random.sample(all, length)) #here we are using all the characters mentioned 
                                                     #and mentioned the length for the password
-    print()
+    
     print(password)
     
